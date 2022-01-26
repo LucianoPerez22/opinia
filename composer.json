@@ -1,0 +1,17 @@
+{
+    "name": "lucianoperez/opinia",
+    "description": "test tecnico",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Luciano Perez",
+            "email": "bsoft2005@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Clases\\": "Clases/"
+        }
+    },
+    "require": {}
+}
