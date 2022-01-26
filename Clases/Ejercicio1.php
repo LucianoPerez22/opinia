@@ -30,11 +30,12 @@ class Ejercicio1{
     public function imprimir(){
         for ($i = $this->inicio; $i <= $this->fin ; $i++) { 
             if ($this->multiplo3($i) == true){
-                if ($this->multiplo5($i)==0){
+                if ($this->multiplo5($i)==true){
                     echo "FizzBuzz" . "<br/>";
                 }else{
                     echo "Fizz" . "<br/>";    
                 }
+
             }elseif ($this->multiplo5($i) == true){
                  if ($this->multiplo3($i) == true){
                     echo "Buzz" . "<br/>";
@@ -42,6 +43,7 @@ class Ejercicio1{
                    echo "FizzBuzz" . "<br/>";
                 }
             }
+            
             else{
                 echo $i . "<br/>";
             }
